@@ -1,38 +1,44 @@
-.App {
+img {
+  width: 350px;
+  height: 410px;
+  margin-top: 20px;
+  object-fit: cover;
+}
+h1,
+h3 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin-top: 20px;
+  font-family: "Akaya Telivigala", cursive;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button {
+  display: flex;
+  gap: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.car-container {
+  height: min-content;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.error-page {
+  text-align: center;
+  font-size: 60px;
+  margin: 0;
+}
+.nfound {
+  width: 100%;
+  height: 100%;
+}
+.text {
+  width: 50%;
 }
